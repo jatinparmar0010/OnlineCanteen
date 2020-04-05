@@ -16,3 +16,12 @@ mysql> desc signup;
 | gender   | varchar(6)  | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
 
+
+New Files Addes:-
+
+signup
+login
+forget
+forget1
+recovery
+
