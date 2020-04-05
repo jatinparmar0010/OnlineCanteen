@@ -16,12 +16,14 @@ mysql> desc signup;
 | gender   | varchar(6)  | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
 
+new table -----> profile
 
-New Files Addes:-
-
-signup
-login
-forget
-forget1
-recovery
-
+mysql> desc profile;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| email  | varchar(50) | NO   | PRI | NULL    |       |
+| name   | varchar(50) | YES  |     | NULL    |       |
+| cabin  | int(4)      | YES  |     | NULL    |       |
+| mobile | bigint(10)  | NO   |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
