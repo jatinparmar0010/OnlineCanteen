@@ -1,0 +1,21 @@
+﻿#fomain
+{
+    border:1px solid red;
+    background:white;
+	margin-top:30px;
+	margin-bottom:30px;
+	overflow:auto;
+	width:380px;
+	padding:10px;
+	margin-left:270px;
+}
+#fomain h2
+{
+    margin-left:90px;
+    margin-bottom:10px;
+    color:Red;
+}
+.slink
+{
+    margin-left:150px;
+}

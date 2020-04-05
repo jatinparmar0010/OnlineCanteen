@@ -1,0 +1,21 @@
+﻿#fo1main
+{
+    border:1px solid red;
+    background:white;
+	margin-top:30px;
+	margin-bottom:30px;
+	overflow:auto;
+	width:600px;
+	padding:10px;
+	margin-left:170px;
+}
+#fo1main h1
+{
+    margin-left:90px;
+    margin-bottom:10px;
+    color:Red;
+}
+.slink
+{
+    margin-left:150px;
+}

@@ -1,0 +1,43 @@
+﻿#smain
+{
+    border:1px solid red;
+    background:white;
+	margin-top:5px;
+	margin-bottom:5px;
+	overflow:auto;
+	width:410px;
+	padding:10px;
+	margin-left:260px;
+}
+#smain h2
+{
+    margin-left:90px;
+    margin-bottom:10px;
+    color:Red;
+}
+fieldset
+{
+    width:300px;
+}
+legend
+{
+    font-size:20px;
+    color:Red;
+}
+.txt
+{
+    margin-left:50px;
+}
+.sbtn
+{
+    margin-left:120px;
+}
+.slink
+{
+    margin-left:70px;
+}
+.rbtn
+{
+    margin-left:40px;
+    color:Red;
+}

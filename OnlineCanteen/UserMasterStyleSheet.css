@@ -1,0 +1,125 @@
+﻿*
+{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url("images/bg3.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#main{
+	width:960px;
+	max-width:90%
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Helvetica, arial, sans-serif;
+	font-size:15px;
+	margin:auto;
+	padding-top:5px;
+}
+#hmain{
+	/*background: #29293d;
+	background:#383838;*/
+	background-image:url("images/mg1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding: 10px 10px;
+	display:block;
+	height: 170px;
+	border:1px solid white;
+}
+#hdesc{
+	color:white;
+	height: 160px;
+	width: 640px;
+	float:left;
+	padding-top:20px;
+}
+#hlogo{
+	height: 170px;
+	width: 270;
+	float:left;
+	padding-left:40px;
+}
+#nav{
+	background-image:url("images/mg1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:35px;
+	margin-top: 3px;
+	display:block;
+	border:1px solid white;
+}
+#nav ul
+{
+    list-style:none;    
+}
+
+#nav ul li{
+	font-variant:small-caps;
+	font-weight:bold;
+	width:120px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	float:left;
+	position:relative;
+}
+
+#nav ul li a{
+	color:white;
+    display:block;
+    text-decoration:none;
+}
+#nav ul li a:hover
+{
+    background-color: white;
+	color:black;
+}
+
+#nav ul ul
+{
+	position:absolute;
+	display:none;
+}
+
+#nav ul li > ul li
+{
+	background-image:url("images/mg1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	border:1px solid white;
+}
+
+#nav ul li:hover > ul
+{
+	display:block;
+}
+#fmain{
+	clear:both;
+	background-image:url("images/mg1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	margin-top:5px;
+	padding:5px 20px;
+	text-align:center;
+	display:block;
+	border:1px solid white;
+	height:25px;
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:20px;
+}
+.active
+{
+    
+}
+#bmain{
+	background:white;
+	margin-top:5px;
+	overflow:auto;
+	width:960px;	
+}

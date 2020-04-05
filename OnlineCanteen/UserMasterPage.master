@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs"
+    Inherits="UserMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="UserMasterStyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id='main'>
+        <div id='hmain'>
+            <div id='hdesc'>
+                <h1>KJSIM Online Canteen</h1>
+                <p>A complete solution to manage your hunger!!</p>
+            </div>
+            <div id='hlogo'>
+                <img src="images/clogo.png" alt="logo" />
+            </div>
+        </div>
+        <div id='nav'>
+            <ul>
+                <li><a style="border-right: 1px solid white" class="active" href="Home.aspx"><i class="fa fa-fw fa-home">
+                </i>Home</a></li>
+                <li><a style="border-right: 1px solid white" href="#"><i class="fa fa-fw fa-newspaper-o">
+                </i>About Us</a></li>
+                <li><a style="border-right: 1px solid white" href="#"><i class="fa fa-fw fa-phone"></i>
+                    Contact US</a></li>
+                <li style="border-left: 1px solid white; float: right"><a href="#"><i class="fa fa-fw fa-user">
+                </i>Sign Up ></a>
+                    <ul>
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="login.aspx">User</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="bmain">
+            <form id="form1" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+        </div>
+        <div id='fmain'>
+            <p>     &copy 2020,kjsimcanteen.co.in.All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
