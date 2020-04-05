@@ -1,0 +1,29 @@
+﻿h2{
+	background-image:url("images/mg1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	font-variant:small-caps;
+}
+#ad
+{
+    height:200px;
+    padding:10px;
+}
+#desc
+{
+    padding:5px;
+    margin:5px;
+}
+.prod
+{
+    height:220px;
+    width:320px;
+    padding:3px 7px;
+    float:left;
+}
+.prod > img
+{
+    height:200px;
+    width:300px;
+}
